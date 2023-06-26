@@ -332,7 +332,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #e0c700;
+  color: #000000;
   text-decoration: none;
 }
 .bg-counter .row {
@@ -340,6 +340,12 @@ a:hover {
 }
 .counter .row {
   justify-content: center;
+}
+.media-body .my-2 a {
+  color: black;
+}
+.list-inline-item a {
+  color: black;
 }
 
 a:focus {
@@ -577,7 +583,7 @@ a:focus {
 .dropdown-submenu:hover > .dropdown-item,
 .dropdown-item.active,
 .dropdown-item:hover {
-  background: rgb(247, 87, 87);
+  background: #e0c700;
   color: #fff;
 }
 
@@ -953,9 +959,10 @@ ul.dropdown-menu li {
 }
 .blog-item-content h3 a {
   transition: all 0.4s ease 0s;
+  color: black;
 }
 .blog-item-content h3 a:hover {
-  color: rgb(247, 87, 87) !important;
+  color: #e0c700 !important;
 }
 
 .lh-36 {
@@ -963,7 +970,7 @@ ul.dropdown-menu li {
 }
 
 .tags a {
-  background: #f5f8f9;
+  background: #e0c700;
   display: inline-block;
   padding: 8px 23px;
   border-radius: 38px;
