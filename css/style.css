@@ -57,7 +57,7 @@ h4,
 .h4 {
   font-size: 1.3rem;
   line-height: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 h5,
@@ -131,7 +131,7 @@ input[type="tel"]:focus {
 .btn-main,
 .btn-small,
 .btn-transparent {
-  background: yellow;
+  background: #e0c700;
   color: #000000;
   transition: all 0.2s ease;
 }
@@ -142,13 +142,13 @@ input[type="tel"]:focus {
 }
 
 .btn-solid-border {
-  border: 2px solid yellow;
+  border: 2px solid #e0c700;
   background: transparent;
   color: #242424;
 }
 .btn-solid-border:hover {
-  border: 2px solid yellow;
-  background: yellow;
+  border: 2px solid #e0c700;
+  background: #e0c700;
 }
 
 .btn-transparent {
@@ -332,8 +332,14 @@ a {
 
 a:focus,
 a:hover {
-  color: yellow;
+  color: #e0c700;
   text-decoration: none;
+}
+.bg-counter .row {
+  justify-content: center;
+}
+.counter .row {
+  justify-content: center;
 }
 
 a:focus {
@@ -445,7 +451,7 @@ a:focus {
 #navbar .nav-link:hover,
 #navbar .nav-link:focus,
 #navbar .active .nav-link {
-  color: yellow;
+  color: #e0c700;
 }
 #navbar .btn {
   padding: 0.7rem 1.5rem 0.5rem;
@@ -476,7 +482,7 @@ a:focus {
   padding: 0 8px;
 }
 .header-top .header-top-socials a:hover {
-  color: yellow;
+  color: #e0c700;
 }
 .header-top .header-top-info {
   color: #919194;
@@ -619,7 +625,7 @@ ul.dropdown-menu li {
   background: url("../images/bg/home-1.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
-  padding: 200px 0;
+  padding: 100px 0;
   position: relative;
 }
 @media (max-width: 768px) {
@@ -1297,8 +1303,9 @@ h3.quote::before {
   padding-bottom: 10px;
   background: black;
 }
-.footer .copyright a {
+.footer .copyright {
   font-weight: 600;
+  color: white;
 }
 
 .lh-35 {
@@ -1337,7 +1344,7 @@ h3.quote::before {
   z-index: 999;
   height: 40px;
   width: 40px;
-  background: yellow;
+  background: #e0c700;
   border-radius: 50%;
   text-align: center;
   line-height: 43px;
