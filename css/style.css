@@ -320,7 +320,10 @@ input[type="tel"]:focus {
 .no-spacing {
   letter-spacing: 0px;
 }
-
+.tncpp {
+  width: 90%;
+  margin: 100px auto;
+}
 /* Links */
 a {
   color: #ffffff;
