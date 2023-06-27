@@ -4056,8 +4056,6 @@ input[type="submit"].btn-block {
 }
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -7677,7 +7675,7 @@ button.bg-dark:hover {
 }
 .pt-4,
 .py-4 {
-  padding-top: 1.5rem !important;
+  padding-top: 1.4rem !important;
 }
 .pr-4,
 .px-4 {
@@ -7685,7 +7683,7 @@ button.bg-dark:hover {
 }
 .pb-4,
 .py-4 {
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 1.4rem !important;
 }
 .pl-4,
 .px-4 {

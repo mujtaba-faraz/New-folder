@@ -498,7 +498,6 @@ a:focus {
   color: #ffffff;
 }
 .header-top .header-top-info a {
-  margin-left: 35px;
   color: #ffffff;
 }
 
@@ -631,7 +630,7 @@ ul.dropdown-menu li {
   background: url("../images/bg/home-1.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
-  padding: 100px 0;
+  padding: 90px 0;
   position: relative;
 }
 @media (max-width: 768px) {
@@ -640,7 +639,7 @@ ul.dropdown-menu li {
   }
 }
 .slider .block h1 {
-  font-size: 70px;
+  font-size: 65px;
   line-height: 80px;
   font-weight: 600;
   color: #fff;
@@ -655,9 +654,11 @@ ul.dropdown-menu li {
 .slider .block span {
   letter-spacing: 1px;
 }
-.section .col-lg-6 (
-  background: (white)
-) .intro-item i {
+.section .col-lg-6 {
+  background: white;
+}
+
+.intro-item i {
   font-size: 60px;
   line-height: 60px;
 }
@@ -911,7 +912,7 @@ ul.dropdown-menu li {
 .contact-form-wrap .form-group .form-control {
   background: #f5f8f9;
   height: 48px;
-  border: 1px solid #eef2f6;
+  border: 1px solid #000000;
   box-shadow: none;
   width: 100%;
 }
@@ -921,7 +922,7 @@ ul.dropdown-menu li {
 .contact-form-wrap .form-group-2 textarea {
   background: #f5f8f9;
   height: 135px;
-  border: 1px solid #eef2f6;
+  border: 1px solid #000000;
   box-shadow: none;
   width: 100%;
 }
@@ -1307,14 +1308,34 @@ h3.quote::before {
 }
 
 .footer {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   background: black;
 }
 .footer .copyright {
   font-weight: 600;
   color: white;
 }
-
+.footer .row .mb-4 {
+  color: rgb(255, 255, 255);
+}
+.footer .row .widget ul li a {
+  color: white;
+}
+.footer .row .widget ul li a:hover {
+  color: white;
+}
+.footer .row .col-lg-3 h6 a {
+  color: white;
+}
+.footer .row .col-lg-3 h6 a:hover {
+  color: white;
+}
+.footer .row .col-lg-6 {
+  background: black;
+}
+.footer .row .col-lg-6 ul li a {
+  color: white;
+}
 .lh-35 {
   line-height: 35px;
 }
