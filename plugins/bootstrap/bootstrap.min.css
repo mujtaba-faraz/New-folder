@@ -3012,12 +3012,6 @@ input[type="submit"].btn-block {
     transition: none;
   }
 }
-.dropdown,
-.dropleft,
-.dropright,
-.dropup {
-  position: relative;
-}
 .dropdown-toggle {
   white-space: nowrap;
 }
@@ -7673,6 +7667,7 @@ button.bg-dark:hover {
 .p-4 {
   padding: 1.5rem !important;
 }
+/* <!-- rcrbonzeridealbrightland --> */
 .pt-4,
 .py-4 {
   padding-top: 1.4rem !important;

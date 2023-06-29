@@ -296,6 +296,7 @@ input[type="tel"]:focus {
 .text-black {
   color: #242424;
 }
+/* <!-- rcrbonzeridealbrightland --> */
 
 .text-color2 {
   color: #c54041;
@@ -685,7 +686,7 @@ ul.dropdown-menu li {
   left: 0px;
   top: 0px;
   width: 45%;
-  min-height: 650px;
+  min-height: 600px;
   background: url("../images/about/home-8.jpg") no-repeat;
   background-size: cover;
 }
